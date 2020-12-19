@@ -1,0 +1,12 @@
+#main
+/node_modules
+
+#configurations
+.editorconfig
+.eslintignore
+.eslintrc.json
+.gitignore
+tsconfig.json
+
+yarn.lock
+yarn-error.log
