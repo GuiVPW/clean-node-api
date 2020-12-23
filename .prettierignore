@@ -10,3 +10,6 @@ tsconfig.json
 
 yarn.lock
 yarn-error.log
+
+# Test
+coverage
