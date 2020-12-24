@@ -1,8 +1,4 @@
-import fastify from 'fastify'
-
-const app = fastify()
-
-const port = 3000 || process.env.PORT
+import { app, port } from './config/app'
 
 app.listen(port, () =>
 	console.log(`🚀 Servidor rodando na porta: ${port}
