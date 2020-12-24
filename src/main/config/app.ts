@@ -1,6 +1,10 @@
-import fastify from 'fastify'
-import express from 'fastify-express'
+import express from 'express'
+import setupMiddlewares from './middlewares'
 
 export const port = 3000 || process.env.PORT
 
-export const app = fastify().register(express)
+const app = express()
+
+setupMiddlewares(app)
+
+export default app
